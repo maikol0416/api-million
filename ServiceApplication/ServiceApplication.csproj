@@ -1,0 +1,94 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.0" />
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="7.0.13" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="UtilNuget" Version="1.0.8" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="11.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ReglasNegocio\Interfaces\ISeguridadNegocio.cs" />
+    <Compile Remove="ReglasNegocio\Implementaciones\SeguridadNegocio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ReglasNegocio\Implementaciones\MongoAut\" />
+    <None Remove="ReglasNegocio\Implementaciones\SqlAut\" />
+    <None Remove="ReglasNegocio\Interfaces\MongoAut\" />
+    <None Remove="ReglasNegocio\Interfaces\SqlAut\" />
+    <None Remove="Base\" />
+    <None Remove="Models\Auth\" />
+    <None Remove="Models\Auth\Service\" />
+    <None Remove="Models\Auth\Interface\" />
+    <None Remove="Models\Files\" />
+    <None Remove="Models\Test\" />
+    <None Remove="Port\" />
+    <None Remove="Models\Porcicultura\" />
+    <None Remove="Models\Inventario\" />
+    <None Remove="Models\Parametros\" />
+    <None Remove="Models\App\" />
+    <None Remove="Base\Dto\" />
+    <None Remove="Models\Currency\Dto\" />
+    <None Remove="Models\Currency\Interface\" />
+    <None Remove="Models\Currency\Mapper\" />
+    <None Remove="Models\Currency\Service\" />
+    <None Remove="Models\Currency\Validator\" />
+    <None Remove="FluentValidation.DependencyInjectionExtensions" />
+    <None Remove="UtilNuget" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Microsoft.Extensions.Configuration" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="CQRS\" />
+    <None Remove="CQRS\Common\" />
+    <None Remove="CQRS\Common\Command\" />
+    <None Remove="CQRS\Common\Query\" />
+    <None Remove="CQRS\Auth\" />
+    <None Remove="CQRS\Auth\Query\" />
+    <None Remove="Models\Request\" />
+    <None Remove="Models\Request\Dto\" />
+    <None Remove="Models\Request\Interface\" />
+    <None Remove="Models\Request\Validator\" />
+    <None Remove="Models\Request\Service\" />
+    <None Remove="Models\Request\Mapper\" />
+    <None Remove="Models\Barbershop\" />
+    <None Remove="CQRS\BarberService\" />
+    <None Remove="CQRS\BarberService\Query\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models/Inventory/" />
+    <Folder Include="Port\" />
+    <Folder Include="Base\Dto\" />
+    <Folder Include="CQRS\Common\" />
+    <Folder Include="CQRS\Common\Command\" />
+    <Folder Include="CQRS\Common\Query\" />
+    <Folder Include="CQRS\Auth\" />
+    <Folder Include="CQRS\Auth\Query\" />
+    <Folder Include="Models\Request\" />
+    <Folder Include="Models\Request\Dto\" />
+    <Folder Include="Models\Request\Interface\" />
+    <Folder Include="Models\Request\Validator\" />
+    <Folder Include="Models\Request\Service\" />
+    <Folder Include="Models\Request\Mapper\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ServiceBus">
+      <HintPath>..\LocalReference\ServiceBus.dll</HintPath>
+    </Reference>
+    <Reference Include="TableStorage">
+      <HintPath>..\LocalReference\TableStorage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

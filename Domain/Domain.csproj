@@ -1,0 +1,78 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Common\Exception\**" />
+    <Compile Remove="Context\Compartidas\**" />
+    <EmbeddedResource Remove="Common\Exception\**" />
+    <EmbeddedResource Remove="Context\Compartidas\**" />
+    <None Remove="Common\Exception\**" />
+    <None Remove="Context\Compartidas\**" />
+    <None Remove="Context\Porcicultura\" />
+    <None Remove="Context\Inventario\" />
+    <None Remove="Context\Parametros\" />
+    <None Remove="Context\SeguridadApp\" />
+    <None Remove="Context\Auth\Specifications\" />
+    <None Remove="Context\Project\" />
+    <None Remove="UtilNuget" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Common\Constants\" />
+    <None Remove="Entities\" />
+    <None Remove="Context\Request\" />
+    <None Remove="Context\Auth\Metadata\" />
+    <None Remove="Context\Test\" />
+    <None Remove="Context\Barbershop\" />
+    <None Remove="Context\Barbershop\Services\" />
+    <None Remove="Context\Barbershop\Turns\" />
+    <None Remove="Context\Barbershop\Barber\" />
+    <None Remove="Context\Barbershop\Client\" />
+    <None Remove="Port\Barbershop\" />
+    <None Remove="Context\Barbershop\Barber\Specifications\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Entidades\" />
+    <None Remove="Entidades\SqlServer\" />
+    <None Remove="Entidades\MongoDB\" />
+    <None Remove="Entidades\Mongo\Compartidas\" />
+    <None Remove="Entidades\SqlServer\Identity\" />
+    <None Remove="Entidades\SqlServer\Compartidas\" />
+    <None Remove="Entidades\Mongo\Autenticacion\" />
+    <None Remove="Entidades\Compartidas\" />
+    <None Remove="Entidades\Identity\" />
+    <None Remove="Port\" />
+    <None Remove="Port\Base\" />
+    <None Remove="Context\Auth\" />
+    <None Remove="Context\Auth\Identity\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Enumeradores\" />
+    <None Remove="Common\Entities\" />
+    <None Remove="Common\Excepciones\" />
+    <None Remove="Context\Archivo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Enum\" />
+    <Folder Include="Context\Auth\Specifications\" />
+    <Folder Include="Common\Constants\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Context\Request\" />
+    <Folder Include="Context\Auth\Metadata\" />
+    <Folder Include="Context\Test\" />
+    <Folder Include="Context\Barbershop\Services\" />
+    <Folder Include="Context\Barbershop\Turns\" />
+    <Folder Include="Context\Barbershop\Barber\" />
+    <Folder Include="Context\Barbershop\Client\" />
+    <Folder Include="Context\Barbershop\Barber\Specifications\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.40.3" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.13" />
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="UtilNuget" Version="1.0.8" />
+    <PackageReference Include="Azure.Data.Tables" Version="12.8.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.19.0" />
+  </ItemGroup>
+</Project>
