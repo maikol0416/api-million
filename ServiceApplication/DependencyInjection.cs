@@ -7,6 +7,7 @@ using ServiceApplication.Base;
 using ServiceApplication.CQRS;
 using ServiceApplication.Dto;
 using ServiceApplication.Models.Auth.Validator;
+using ServiceApplication.Validator;
 using Util.Common;
 
 namespace ServiceApplication
@@ -18,6 +19,11 @@ namespace ServiceApplication
             services.AddScoped<IValidator<TestDto>, TestValidator>();
             services.AddScoped<IValidator<UserDto>, UserValidator>();
             services.AddScoped<IValidator<RolDto>, RolValidator>();
+
+            services.AddScoped<IValidator<OwnerDto>, OwnerValidator>();
+            services.AddScoped<IValidator<PropertyDto>, PropertyValidator>();
+            services.AddScoped<IValidator<PropertyImageDto>, PropertyImageValidator>();
+            services.AddScoped<IValidator<PropertyTraceDto>, PropertyTraceValidator>();
 
 
             services.AddTransient<IUserService, UserService>();

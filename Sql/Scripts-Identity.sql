@@ -1,5 +1,3 @@
---1
-/****** Object:  Table [dbo].[AspNetUsers]    Script Date: 3/8/2024 10:01:35 AM ******/ 
 SET ANSI_NULLS ON
 GO
 

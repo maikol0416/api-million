@@ -255,3 +255,4 @@
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Api6/obj/Debug/net7.0/Api.pdb
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Api6/obj/Debug/net7.0/Api.genruntimeconfig.cache
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Api6/obj/Debug/net7.0/ref/Api.dll
+/Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Api6/obj/Debug/net7.0/Api.sourcelink.json

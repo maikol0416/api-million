@@ -33,3 +33,4 @@
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Infrastructure/obj/Debug/net7.0/Infrastructure.genruntimeconfig.cache
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
+/Users/maikolmartinezsanjuan/Documents/repo/401/api-million/Infrastructure/obj/Debug/net7.0/Infrastructure.sourcelink.json

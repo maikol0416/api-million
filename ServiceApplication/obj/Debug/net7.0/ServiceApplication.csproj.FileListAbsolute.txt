@@ -33,3 +33,4 @@
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/ServiceApplication/obj/Debug/net7.0/refint/ServiceApplication.dll
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/ServiceApplication/obj/Debug/net7.0/ServiceApplication.pdb
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/ServiceApplication/obj/Debug/net7.0/ref/ServiceApplication.dll
+/Users/maikolmartinezsanjuan/Documents/repo/401/api-million/ServiceApplication/obj/Debug/net7.0/ServiceApplication.sourcelink.json

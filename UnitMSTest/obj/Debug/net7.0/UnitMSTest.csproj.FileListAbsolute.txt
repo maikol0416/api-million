@@ -394,3 +394,4 @@
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/UnitMSTest/obj/Debug/net7.0/UnitMSTest.pdb
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/UnitMSTest/obj/Debug/net7.0/UnitMSTest.genruntimeconfig.cache
 /Users/maikolmartinezsanjuan/Documents/repo/401/api-million/UnitMSTest/obj/Debug/net7.0/ref/UnitMSTest.dll
+/Users/maikolmartinezsanjuan/Documents/repo/401/api-million/UnitMSTest/obj/Debug/net7.0/UnitMSTest.sourcelink.json
